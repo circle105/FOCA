@@ -5,7 +5,7 @@ class Config(object):
         self.lora_dropout=0.5
         
         self.lora_tune_epoch = 1
-        self.train_epochs = 10 
+        self.train_epochs = 200 
         self.freeze_length_epoch = 1
         self.change_center_epoch = 1
 

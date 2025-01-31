@@ -48,7 +48,6 @@ else:
         dt = UCR()
     model_num = len(dt)
 
-model_num=1
 all_test_rpa_score, all_test_pa_score, all_test_pw_score = [], [], []
 all_anomaly_num, all_test_scores_reasonable = [], []
 all_test_aff_score, all_test_aff_precision, all_test_aff_recall = [], [], []
